@@ -1,27 +1,40 @@
-div #efec:hover{
+div #efec:hover {
     background-color: #403D3D;
     border-style: solid;
     opacity: .8;
     color: white;
     border-radius: 10px;
 }
+
 div #efec {
     color: black;
 }
-div #efec:checked{
     
-}
 body {
+    margin: 0;
 }
-a:link
-{
+
+a:link {
 text-decoration:none;
 }
-a:hover
-{
+
+a:hover {
 color: white;
 }
-a
-{
+
+a {
 color: black;
 }
+
+div #anim{
+ transform:scale(1);
+    transition-duration: 2s;
+}
+div #anim:hover{
+ transform:scale(1.1);
+    transition-duration: 2s;
+}
+
+
+
+

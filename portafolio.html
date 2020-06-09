@@ -6,7 +6,7 @@
     <meta name="description" content="portafolio de trabajos UABCS">
     <meta name="author" content="Alberto Noriega Millán">
     <link rel="icon" href="../../../../favicon.ico">
-    <title>Portafolio de trabajo</title> 
+    <title>Portafolio académico</title> 
     <!--Template based on URL below-->
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
     <!-- Bootstrap core CSS -->
@@ -18,8 +18,10 @@
 
 <body>
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#">Portafolio UABCS</a>
+<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="#">
+    <img src="img/uabcs.jpg" alt="Logo" class="rounded-circle" style="width:40px;">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -33,6 +35,9 @@
                 <a class="nav-link" href="#">UABCS<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1">MIS PROYECTOS</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#" tabindex="-1">SOBRE MI</a>
             </li>
         </ul>
@@ -42,31 +47,39 @@
     <main role="main" class="container">
 
         <div class="text-center mt-5 pt-5">
-            <h1>Portafolio UABCS</h1>
-            <p class="lead">Esta sección de mi sitio web contiene prácticas, tareas y páginas web con el fin de facilitar a mis profesores la visualización de dichas prácticas.<facilitax></facilitax>.</p>
+            <h1 class="display-4 text-primary">Portafolio UABCS</h1>
+            <h4>Esta sección de mi sitio web contiene prácticas, tareas y páginas web con el fin de facilitar a mis profesores la visualización de dichas prácticas.</h4>
         </div>
-        <div class="row col-md-12 mt-5">
-            
-            <div class="col-sm-4" id="efec" >
-                <a href="gym.html"><h3>Graficación y multimedia</h3></a>
+         <div class="row col-md-12 mt-5">
+            <div class="col-sm-4">
+                <div class="card" style="width:300px height:150px">
+                    <img class="card-img-top" src="img/p5.png" alt="Card image">
+                    <div class="card-body">
+                    <h3 class="card-title">Graficación y Multimedia</h3>
+                    <p class="card-text">Prof. Ing.Jesús Zúñiga.</p>
+                    <a href="gym.html" class="btn btn-primary btn-lg">Entrar</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-4" id="efec">
-                <h3>Ingeniería en desarrollo de software</h3>
+            <div class="col-sm-4">
+                <div class="card" style="width:300px height:150px">
+                    <img class="card-img-top" src="img/is2.png" alt="Card image">
+                    <div class="card-body">
+                    <h3 class="card-title">Ingeniería de software II</h3>
+                    <p class="card-text">Prof. Italia Cota.</p>
+                    <a href="test.html" class="btn btn-primary btn-lg">Entrar</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-4" id="efec">
-                <h3>Programación de sistemas</h3>
-            </div>
-        </div>
-        <hr>
-        <div class="row col-md-12  mt-5">
-            <div class="col-sm-4" id="efec" >
-                <h3>Programación móvil avanzada</h3>
-            </div>
-            <div class="col-sm-4" id="efec">
-                <h3>Redes II</h3>
-            </div>
-            <div class="col-sm-4" id="efec">
-                <h3></h3>
+            <div class="col-sm-4">
+                <div class="card" style="width:300px height:150px">
+                    <img class="card-img-top" src="img/progsis.png" alt="Card image">
+                    <div class="card-body">
+                    <h3 class="card-title">Programación de Sistemas</h3>
+                    <p class="card-text">Prof. Martín Agúndez.</p>
+                    <a href="#" class="btn btn-primary btn-lg">Entrar</a>
+                    </div>
+                </div>
             </div>
         </div>
         <hr>

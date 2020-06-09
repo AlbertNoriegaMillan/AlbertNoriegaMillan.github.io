@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
-    <title>ANM Web Site</title>
+    <title>Test Vocacional-UABCS</title>
     
     <!--Template based on URL below-->
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
@@ -16,10 +17,9 @@
 
     <!-- Place your stylesheet here-->
     <link href="/css/stylesheet.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="miestilo.css">
 </head>
 
-<body style="background: #18191a">
+<body>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#">
@@ -31,11 +31,11 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
+            <li class="nav-item ">
+                <a class="nav-link" href="#">INICIO </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="portafolio.html">UABCS</a>
+                <a class="nav-link active" href="portafolio.html">UABCS<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#" tabindex="-1">MIS PROYECTOS</a>
@@ -48,22 +48,10 @@
 </nav>
 
     <main role="main" class="container">
-     <div class="row">
-        <div class=" col-sm-4 mt-5 pt-5" id="anim">
-            <img src="img/meGIMP.jpg" class="rounded-circle" width="300" height="300" alt="alber universidad">
-        </div>
-        <div class="col-sm-8 text-justify mt-5">
-            <h1 class="display-4 text-primary pt-5" id="anim2">¡Hola! Mi nombre es Alberto Noriega, soy Desarrollador de Software</h1>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-sm-8 text-justify mt-5">
-           <a href="https://www.facebook.com/UniversidadAutonomadeBajaCaliforniaSur">
-            <h1 class="text-warning pt-5" id="anim">Estudio en la Universidad Autónoma de Baja California Sur</h1></a>
-        </div>
-        <div class=" col-sm-4 mt-5 pt-5" id="anim2">
-            <img src="img/uabcs.jpg" class="rounded-circle" width="300" height="300" alt="alber universidad">
-        </div>
+
+        <div class="text-center mt-5 pt-5">
+            <h1>Registro</h1>
+            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
         </div>
 
     </main><!-- /.container -->
